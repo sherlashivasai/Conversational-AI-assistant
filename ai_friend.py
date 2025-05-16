@@ -8,7 +8,7 @@ from langchain.chat_models import ChatOpenAI
 
 # Load environment variables
 load_dotenv()
-OPENAI_API_KEY="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"
+OPENAI_API_KEY="*******"
 # Initialize the Large Language Model (GPT-3.5 Turbo)
 llm = ChatOpenAI(
     openai_api_key=os.getenv("OPENAI_API_KEY"),
